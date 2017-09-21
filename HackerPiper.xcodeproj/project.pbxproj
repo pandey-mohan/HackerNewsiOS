@@ -7,13 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0162BD4F1F71787000949D9C /* WebRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0162BD4E1F71787000949D9C /* WebRequestManager.swift */; };
+		0162BD501F71787000949D9C /* WebRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0162BD4E1F71787000949D9C /* WebRequestManager.swift */; };
+		0162BD511F71787000949D9C /* WebRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0162BD4E1F71787000949D9C /* WebRequestManager.swift */; };
+		0162BD541F726E4500949D9C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0162BD531F726E4500949D9C /* Item.swift */; };
+		0162BD551F726E4500949D9C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0162BD531F726E4500949D9C /* Item.swift */; };
+		0162BD561F726E4500949D9C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0162BD531F726E4500949D9C /* Item.swift */; };
 		019182831F712A6300DC50C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182821F712A6300DC50C4 /* AppDelegate.swift */; };
-		019182851F712A6300DC50C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182841F712A6300DC50C4 /* ViewController.swift */; };
+		019182851F712A6300DC50C4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182841F712A6300DC50C4 /* LoginViewController.swift */; };
 		019182881F712A6300DC50C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019182861F712A6300DC50C4 /* Main.storyboard */; };
 		0191828A1F712A6300DC50C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019182891F712A6300DC50C4 /* Assets.xcassets */; };
 		0191828D1F712A6300DC50C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0191828B1F712A6300DC50C4 /* LaunchScreen.storyboard */; };
 		019182981F712A6300DC50C4 /* HackerPiperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182971F712A6300DC50C4 /* HackerPiperTests.swift */; };
 		019182A31F712A6300DC50C4 /* HackerPiperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182A21F712A6300DC50C4 /* HackerPiperUITests.swift */; };
+		019182B51F7132E200DC50C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 019182B41F7132E200DC50C4 /* GoogleService-Info.plist */; };
+		019182B61F7132E200DC50C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 019182B41F7132E200DC50C4 /* GoogleService-Info.plist */; };
+		019182B71F7132E200DC50C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 019182B41F7132E200DC50C4 /* GoogleService-Info.plist */; };
+		019182BA1F7153EE00DC50C4 /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182B91F7153EE00DC50C4 /* ArticleListViewController.swift */; };
+		019182BB1F7153EE00DC50C4 /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182B91F7153EE00DC50C4 /* ArticleListViewController.swift */; };
+		019182BC1F7153EE00DC50C4 /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182B91F7153EE00DC50C4 /* ArticleListViewController.swift */; };
+		019182BF1F71543300DC50C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182BE1F71543300DC50C4 /* Extensions.swift */; };
+		019182C01F71543300DC50C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182BE1F71543300DC50C4 /* Extensions.swift */; };
+		019182C11F71543300DC50C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182BE1F71543300DC50C4 /* Extensions.swift */; };
+		019182C31F71558600DC50C4 /* PiperUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182C21F71558600DC50C4 /* PiperUtils.swift */; };
+		019182C41F71558600DC50C4 /* PiperUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182C21F71558600DC50C4 /* PiperUtils.swift */; };
+		019182C51F71558600DC50C4 /* PiperUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182C21F71558600DC50C4 /* PiperUtils.swift */; };
+		019182CD1F715D5100DC50C4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 019182CC1F715D5100DC50C4 /* MBProgressHUD.m */; };
+		019182E51F715D6400DC50C4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 019182CF1F715D6400DC50C4 /* Info.plist */; };
+		019182E61F715D6400DC50C4 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 019182D21F715D6400DC50C4 /* JSONModel.m */; };
+		019182E71F715D6400DC50C4 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 019182D41F715D6400DC50C4 /* JSONModelClassProperty.m */; };
+		019182E81F715D6400DC50C4 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 019182D61F715D6400DC50C4 /* JSONModelError.m */; };
+		019182E91F715D6400DC50C4 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 019182DB1F715D6400DC50C4 /* JSONAPI.m */; };
+		019182EA1F715D6400DC50C4 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 019182DD1F715D6400DC50C4 /* JSONHTTPClient.m */; };
+		019182EB1F715D6400DC50C4 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 019182DF1F715D6400DC50C4 /* JSONModel+networking.m */; };
+		019182EC1F715D6400DC50C4 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 019182E21F715D6400DC50C4 /* JSONKeyMapper.m */; };
+		019182ED1F715D6400DC50C4 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 019182E41F715D6400DC50C4 /* JSONValueTransformer.m */; };
+		019182EF1F715E0F00DC50C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019182EE1F715E0F00DC50C4 /* Constants.swift */; };
+		019182F21F71600500DC50C4 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019182F01F71600500DC50C4 /* Realm.framework */; };
+		019182F31F71600500DC50C4 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 019182F01F71600500DC50C4 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		019182F41F71600500DC50C4 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019182F11F71600500DC50C4 /* RealmSwift.framework */; };
+		019182F51F71600500DC50C4 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 019182F11F71600500DC50C4 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01A65F7E1F728572000040B2 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F7C1F728572000040B2 /* ItemTableViewCell.swift */; };
+		01A65F7F1F728572000040B2 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A65F7D1F728572000040B2 /* ItemTableViewCell.xib */; };
+		01A65F831F73CBA9000040B2 /* SlidingContainerSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F811F73CBA9000040B2 /* SlidingContainerSliderView.swift */; };
+		01A65F841F73CBA9000040B2 /* SlidingContainerSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F811F73CBA9000040B2 /* SlidingContainerSliderView.swift */; };
+		01A65F851F73CBA9000040B2 /* SlidingContainerSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F811F73CBA9000040B2 /* SlidingContainerSliderView.swift */; };
+		01A65F861F73CBA9000040B2 /* SlidingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F821F73CBA9000040B2 /* SlidingContainerViewController.swift */; };
+		01A65F871F73CBA9000040B2 /* SlidingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F821F73CBA9000040B2 /* SlidingContainerViewController.swift */; };
+		01A65F881F73CBA9000040B2 /* SlidingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F821F73CBA9000040B2 /* SlidingContainerViewController.swift */; };
+		01A65F8A1F73D10E000040B2 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F891F73D10E000040B2 /* ItemDetailViewController.swift */; };
+		01A65F8B1F73D10E000040B2 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F891F73D10E000040B2 /* ItemDetailViewController.swift */; };
+		01A65F8C1F73D10E000040B2 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F891F73D10E000040B2 /* ItemDetailViewController.swift */; };
+		01A65F8E1F73D159000040B2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F8D1F73D159000040B2 /* WebViewController.swift */; };
+		01A65F8F1F73D159000040B2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F8D1F73D159000040B2 /* WebViewController.swift */; };
+		01A65F901F73D159000040B2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F8D1F73D159000040B2 /* WebViewController.swift */; };
+		01A65F921F73D225000040B2 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F911F73D225000040B2 /* ContainerViewController.swift */; };
+		01A65F931F73D225000040B2 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F911F73D225000040B2 /* ContainerViewController.swift */; };
+		01A65F941F73D225000040B2 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F911F73D225000040B2 /* ContainerViewController.swift */; };
+		01A65F971F73EEFE000040B2 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F951F73EEFE000040B2 /* CommentTableViewCell.swift */; };
+		01A65F981F73EEFE000040B2 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F951F73EEFE000040B2 /* CommentTableViewCell.swift */; };
+		01A65F991F73EEFE000040B2 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A65F951F73EEFE000040B2 /* CommentTableViewCell.swift */; };
+		01A65F9A1F73EEFE000040B2 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A65F961F73EEFE000040B2 /* CommentTableViewCell.xib */; };
+		01A65F9B1F73EEFE000040B2 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A65F961F73EEFE000040B2 /* CommentTableViewCell.xib */; };
+		01A65F9C1F73EEFE000040B2 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A65F961F73EEFE000040B2 /* CommentTableViewCell.xib */; };
+		06FCE59A7F450F772FA253C3 /* Pods_HackerPiperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE0979BE908D13BD082D0E2 /* Pods_HackerPiperTests.framework */; };
+		818E69B735FA8F48DE26C72E /* Pods_HackerPiperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB5E642E783A2DD15D28094 /* Pods_HackerPiperUITests.framework */; };
+		D28C732FCD93E5475DC6526C /* Pods_HackerPiper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8680A4B14B287085EE0B58 /* Pods_HackerPiper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +92,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		019182F61F71600500DC50C4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				019182F51F71600500DC50C4 /* RealmSwift.framework in Embed Frameworks */,
+				019182F31F71600500DC50C4 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0162BD4E1F71787000949D9C /* WebRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRequestManager.swift; sourceTree = "<group>"; };
+		0162BD531F726E4500949D9C /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		0191827F1F712A6300DC50C4 /* HackerPiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerPiper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		019182821F712A6300DC50C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		019182841F712A6300DC50C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		019182841F712A6300DC50C4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		019182871F712A6300DC50C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		019182891F712A6300DC50C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0191828C1F712A6300DC50C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +123,54 @@
 		0191829E1F712A6300DC50C4 /* HackerPiperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerPiperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		019182A21F712A6300DC50C4 /* HackerPiperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerPiperUITests.swift; sourceTree = "<group>"; };
 		019182A41F712A6300DC50C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019182B41F7132E200DC50C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		019182B81F7133FB00DC50C4 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		019182B91F7153EE00DC50C4 /* ArticleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
+		019182BE1F71543300DC50C4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		019182C21F71558600DC50C4 /* PiperUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiperUtils.swift; sourceTree = "<group>"; };
+		019182CA1F715D5100DC50C4 /* MBProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		019182CB1F715D5100DC50C4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		019182CC1F715D5100DC50C4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		019182CF1F715D6400DC50C4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019182D11F715D6400DC50C4 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		019182D21F715D6400DC50C4 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		019182D31F715D6400DC50C4 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		019182D41F715D6400DC50C4 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		019182D51F715D6400DC50C4 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		019182D61F715D6400DC50C4 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		019182D71F715D6400DC50C4 /* JSONModel.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = JSONModel.modulemap; sourceTree = "<group>"; };
+		019182D81F715D6400DC50C4 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		019182DA1F715D6400DC50C4 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		019182DB1F715D6400DC50C4 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		019182DC1F715D6400DC50C4 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		019182DD1F715D6400DC50C4 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		019182DE1F715D6400DC50C4 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		019182DF1F715D6400DC50C4 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		019182E11F715D6400DC50C4 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		019182E21F715D6400DC50C4 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		019182E31F715D6400DC50C4 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		019182E41F715D6400DC50C4 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		019182EE1F715E0F00DC50C4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		019182F01F71600500DC50C4 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		019182F11F71600500DC50C4 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		01A65F7C1F728572000040B2 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		01A65F7D1F728572000040B2 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		01A65F811F73CBA9000040B2 /* SlidingContainerSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingContainerSliderView.swift; sourceTree = "<group>"; };
+		01A65F821F73CBA9000040B2 /* SlidingContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingContainerViewController.swift; sourceTree = "<group>"; };
+		01A65F891F73D10E000040B2 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		01A65F8D1F73D159000040B2 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		01A65F911F73D225000040B2 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		01A65F951F73EEFE000040B2 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		01A65F961F73EEFE000040B2 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		059BB7359BF46E27124617E6 /* Pods-HackerPiperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerPiperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackerPiperTests/Pods-HackerPiperTests.release.xcconfig"; sourceTree = "<group>"; };
+		2BB5E642E783A2DD15D28094 /* Pods_HackerPiperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerPiperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C98E7FD13170C991785CB7D /* Pods-HackerPiper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerPiper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackerPiper/Pods-HackerPiper.debug.xcconfig"; sourceTree = "<group>"; };
+		3F64D653168B4C2A30DD1055 /* Pods-HackerPiperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerPiperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackerPiperUITests/Pods-HackerPiperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5454E0BA65F23448EAFF910B /* Pods-HackerPiperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerPiperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackerPiperTests/Pods-HackerPiperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61036D30D3A16BC81706FA9B /* Pods-HackerPiper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerPiper.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackerPiper/Pods-HackerPiper.release.xcconfig"; sourceTree = "<group>"; };
+		9660B5811D51F2F0B217F4A6 /* Pods-HackerPiperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerPiperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackerPiperUITests/Pods-HackerPiperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAE0979BE908D13BD082D0E2 /* Pods_HackerPiperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerPiperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8680A4B14B287085EE0B58 /* Pods_HackerPiper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerPiper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +178,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019182F21F71600500DC50C4 /* Realm.framework in Frameworks */,
+				D28C732FCD93E5475DC6526C /* Pods_HackerPiper.framework in Frameworks */,
+				019182F41F71600500DC50C4 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06FCE59A7F450F772FA253C3 /* Pods_HackerPiperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +196,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				818E69B735FA8F48DE26C72E /* Pods_HackerPiperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0162BD521F726E3000949D9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0162BD531F726E4500949D9C /* Item.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		019182761F712A6300DC50C4 = {
 			isa = PBXGroup;
 			children = (
+				019182F01F71600500DC50C4 /* Realm.framework */,
+				019182F11F71600500DC50C4 /* RealmSwift.framework */,
 				019182811F712A6300DC50C4 /* HackerPiper */,
 				019182961F712A6300DC50C4 /* HackerPiperTests */,
 				019182A11F712A6300DC50C4 /* HackerPiperUITests */,
 				019182801F712A6300DC50C4 /* Products */,
+				42C14D62858E0C576CF3EA5C /* Pods */,
+				0FB892AF550B761C3C9AEB4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +238,24 @@
 		019182811F712A6300DC50C4 /* HackerPiper */ = {
 			isa = PBXGroup;
 			children = (
+				01A65F7B1F728547000040B2 /* TableViewCells */,
+				0162BD521F726E3000949D9C /* Models */,
+				019182F71F7160C300DC50C4 /* Models */,
+				019182C81F715D2A00DC50C4 /* ThirdPartyLibs */,
+				019182BD1F7153FF00DC50C4 /* Utils */,
 				019182821F712A6300DC50C4 /* AppDelegate.swift */,
-				019182841F712A6300DC50C4 /* ViewController.swift */,
+				019182B81F7133FB00DC50C4 /* Bridging-Header.h */,
+				019182841F712A6300DC50C4 /* LoginViewController.swift */,
 				019182861F712A6300DC50C4 /* Main.storyboard */,
 				019182891F712A6300DC50C4 /* Assets.xcassets */,
 				0191828B1F712A6300DC50C4 /* LaunchScreen.storyboard */,
 				0191828E1F712A6300DC50C4 /* Info.plist */,
+				019182B41F7132E200DC50C4 /* GoogleService-Info.plist */,
+				019182B91F7153EE00DC50C4 /* ArticleListViewController.swift */,
+				0162BD4E1F71787000949D9C /* WebRequestManager.swift */,
+				01A65F891F73D10E000040B2 /* ItemDetailViewController.swift */,
+				01A65F8D1F73D159000040B2 /* WebViewController.swift */,
+				01A65F911F73D225000040B2 /* ContainerViewController.swift */,
 			);
 			path = HackerPiper;
 			sourceTree = "<group>";
@@ -125,6 +278,136 @@
 			path = HackerPiperUITests;
 			sourceTree = "<group>";
 		};
+		019182BD1F7153FF00DC50C4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				019182C21F71558600DC50C4 /* PiperUtils.swift */,
+				019182BE1F71543300DC50C4 /* Extensions.swift */,
+				019182EE1F715E0F00DC50C4 /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		019182C81F715D2A00DC50C4 /* ThirdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				01A65F801F73CBA9000040B2 /* SlidingContainerViewController */,
+				019182CE1F715D6400DC50C4 /* JSONModel */,
+				019182C91F715D5100DC50C4 /* Loader */,
+			);
+			name = ThirdPartyLibs;
+			sourceTree = "<group>";
+		};
+		019182C91F715D5100DC50C4 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				019182CA1F715D5100DC50C4 /* MBProgressHUD-Prefix.pch */,
+				019182CB1F715D5100DC50C4 /* MBProgressHUD.h */,
+				019182CC1F715D5100DC50C4 /* MBProgressHUD.m */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		019182CE1F715D6400DC50C4 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				019182CF1F715D6400DC50C4 /* Info.plist */,
+				019182D01F715D6400DC50C4 /* JSONModel */,
+				019182D71F715D6400DC50C4 /* JSONModel.modulemap */,
+				019182D81F715D6400DC50C4 /* JSONModelLib.h */,
+				019182D91F715D6400DC50C4 /* JSONModelNetworking */,
+				019182E01F715D6400DC50C4 /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		019182D01F715D6400DC50C4 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				019182D11F715D6400DC50C4 /* JSONModel.h */,
+				019182D21F715D6400DC50C4 /* JSONModel.m */,
+				019182D31F715D6400DC50C4 /* JSONModelClassProperty.h */,
+				019182D41F715D6400DC50C4 /* JSONModelClassProperty.m */,
+				019182D51F715D6400DC50C4 /* JSONModelError.h */,
+				019182D61F715D6400DC50C4 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		019182D91F715D6400DC50C4 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				019182DA1F715D6400DC50C4 /* JSONAPI.h */,
+				019182DB1F715D6400DC50C4 /* JSONAPI.m */,
+				019182DC1F715D6400DC50C4 /* JSONHTTPClient.h */,
+				019182DD1F715D6400DC50C4 /* JSONHTTPClient.m */,
+				019182DE1F715D6400DC50C4 /* JSONModel+networking.h */,
+				019182DF1F715D6400DC50C4 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		019182E01F715D6400DC50C4 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				019182E11F715D6400DC50C4 /* JSONKeyMapper.h */,
+				019182E21F715D6400DC50C4 /* JSONKeyMapper.m */,
+				019182E31F715D6400DC50C4 /* JSONValueTransformer.h */,
+				019182E41F715D6400DC50C4 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		019182F71F7160C300DC50C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		01A65F7B1F728547000040B2 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				01A65F7C1F728572000040B2 /* ItemTableViewCell.swift */,
+				01A65F7D1F728572000040B2 /* ItemTableViewCell.xib */,
+				01A65F951F73EEFE000040B2 /* CommentTableViewCell.swift */,
+				01A65F961F73EEFE000040B2 /* CommentTableViewCell.xib */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		01A65F801F73CBA9000040B2 /* SlidingContainerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				01A65F811F73CBA9000040B2 /* SlidingContainerSliderView.swift */,
+				01A65F821F73CBA9000040B2 /* SlidingContainerViewController.swift */,
+			);
+			path = SlidingContainerViewController;
+			sourceTree = "<group>";
+		};
+		0FB892AF550B761C3C9AEB4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE8680A4B14B287085EE0B58 /* Pods_HackerPiper.framework */,
+				CAE0979BE908D13BD082D0E2 /* Pods_HackerPiperTests.framework */,
+				2BB5E642E783A2DD15D28094 /* Pods_HackerPiperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42C14D62858E0C576CF3EA5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C98E7FD13170C991785CB7D /* Pods-HackerPiper.debug.xcconfig */,
+				61036D30D3A16BC81706FA9B /* Pods-HackerPiper.release.xcconfig */,
+				5454E0BA65F23448EAFF910B /* Pods-HackerPiperTests.debug.xcconfig */,
+				059BB7359BF46E27124617E6 /* Pods-HackerPiperTests.release.xcconfig */,
+				9660B5811D51F2F0B217F4A6 /* Pods-HackerPiperUITests.debug.xcconfig */,
+				3F64D653168B4C2A30DD1055 /* Pods-HackerPiperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +415,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 019182A71F712A6300DC50C4 /* Build configuration list for PBXNativeTarget "HackerPiper" */;
 			buildPhases = (
+				CE95FFD0A0AA3DAA6B7CE702 /* [CP] Check Pods Manifest.lock */,
 				0191827B1F712A6300DC50C4 /* Sources */,
 				0191827C1F712A6300DC50C4 /* Frameworks */,
 				0191827D1F712A6300DC50C4 /* Resources */,
+				9A9E96555F0F8B03EFAB0169 /* [CP] Embed Pods Frameworks */,
+				6D5F87594E983CA633F6CD40 /* [CP] Copy Pods Resources */,
+				019182F61F71600500DC50C4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +436,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 019182AA1F712A6300DC50C4 /* Build configuration list for PBXNativeTarget "HackerPiperTests" */;
 			buildPhases = (
+				14A56803E5EE6CAE6C218F99 /* [CP] Check Pods Manifest.lock */,
 				0191828F1F712A6300DC50C4 /* Sources */,
 				019182901F712A6300DC50C4 /* Frameworks */,
 				019182911F712A6300DC50C4 /* Resources */,
+				A7BBC37688B5D9F72817A9B9 /* [CP] Embed Pods Frameworks */,
+				8647B11FD703CE3C9C013E53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +457,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 019182AD1F712A6300DC50C4 /* Build configuration list for PBXNativeTarget "HackerPiperUITests" */;
 			buildPhases = (
+				CC16E793B6F1B032A9D45CD2 /* [CP] Check Pods Manifest.lock */,
 				0191829A1F712A6300DC50C4 /* Sources */,
 				0191829B1F712A6300DC50C4 /* Frameworks */,
 				0191829C1F712A6300DC50C4 /* Resources */,
+				D9D50EDD30A4BA7D67F2DEB6 /* [CP] Embed Pods Frameworks */,
+				03BA5C12B7046BC0742E6A27 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,7 +529,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0191828D1F712A6300DC50C4 /* LaunchScreen.storyboard in Resources */,
+				019182B51F7132E200DC50C4 /* GoogleService-Info.plist in Resources */,
 				0191828A1F712A6300DC50C4 /* Assets.xcassets in Resources */,
+				019182E51F715D6400DC50C4 /* Info.plist in Resources */,
+				01A65F9A1F73EEFE000040B2 /* CommentTableViewCell.xib in Resources */,
+				01A65F7F1F728572000040B2 /* ItemTableViewCell.xib in Resources */,
 				019182881F712A6300DC50C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +542,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019182B61F7132E200DC50C4 /* GoogleService-Info.plist in Resources */,
+				01A65F9B1F73EEFE000040B2 /* CommentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,18 +551,180 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019182B71F7132E200DC50C4 /* GoogleService-Info.plist in Resources */,
+				01A65F9C1F73EEFE000040B2 /* CommentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03BA5C12B7046BC0742E6A27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackerPiperUITests/Pods-HackerPiperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14A56803E5EE6CAE6C218F99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D5F87594E983CA633F6CD40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackerPiper/Pods-HackerPiper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8647B11FD703CE3C9C013E53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackerPiperTests/Pods-HackerPiperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A9E96555F0F8B03EFAB0169 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackerPiper/Pods-HackerPiper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7BBC37688B5D9F72817A9B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackerPiperTests/Pods-HackerPiperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC16E793B6F1B032A9D45CD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE95FFD0A0AA3DAA6B7CE702 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9D50EDD30A4BA7D67F2DEB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackerPiperUITests/Pods-HackerPiperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0191827B1F712A6300DC50C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				019182851F712A6300DC50C4 /* ViewController.swift in Sources */,
+				0162BD541F726E4500949D9C /* Item.swift in Sources */,
+				01A65F8E1F73D159000040B2 /* WebViewController.swift in Sources */,
+				019182EA1F715D6400DC50C4 /* JSONHTTPClient.m in Sources */,
+				019182E61F715D6400DC50C4 /* JSONModel.m in Sources */,
+				01A65F861F73CBA9000040B2 /* SlidingContainerViewController.swift in Sources */,
+				019182E71F715D6400DC50C4 /* JSONModelClassProperty.m in Sources */,
+				019182EC1F715D6400DC50C4 /* JSONKeyMapper.m in Sources */,
+				01A65F831F73CBA9000040B2 /* SlidingContainerSliderView.swift in Sources */,
+				0162BD4F1F71787000949D9C /* WebRequestManager.swift in Sources */,
+				01A65F8A1F73D10E000040B2 /* ItemDetailViewController.swift in Sources */,
+				019182BA1F7153EE00DC50C4 /* ArticleListViewController.swift in Sources */,
+				019182C31F71558600DC50C4 /* PiperUtils.swift in Sources */,
+				019182EF1F715E0F00DC50C4 /* Constants.swift in Sources */,
+				019182851F712A6300DC50C4 /* LoginViewController.swift in Sources */,
+				01A65F921F73D225000040B2 /* ContainerViewController.swift in Sources */,
+				01A65F7E1F728572000040B2 /* ItemTableViewCell.swift in Sources */,
+				019182ED1F715D6400DC50C4 /* JSONValueTransformer.m in Sources */,
 				019182831F712A6300DC50C4 /* AppDelegate.swift in Sources */,
+				019182EB1F715D6400DC50C4 /* JSONModel+networking.m in Sources */,
+				01A65F971F73EEFE000040B2 /* CommentTableViewCell.swift in Sources */,
+				019182BF1F71543300DC50C4 /* Extensions.swift in Sources */,
+				019182E81F715D6400DC50C4 /* JSONModelError.m in Sources */,
+				019182E91F715D6400DC50C4 /* JSONAPI.m in Sources */,
+				019182CD1F715D5100DC50C4 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +733,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				019182981F712A6300DC50C4 /* HackerPiperTests.swift in Sources */,
+				01A65F841F73CBA9000040B2 /* SlidingContainerSliderView.swift in Sources */,
+				019182C41F71558600DC50C4 /* PiperUtils.swift in Sources */,
+				01A65F931F73D225000040B2 /* ContainerViewController.swift in Sources */,
+				01A65F8F1F73D159000040B2 /* WebViewController.swift in Sources */,
+				01A65F871F73CBA9000040B2 /* SlidingContainerViewController.swift in Sources */,
+				0162BD501F71787000949D9C /* WebRequestManager.swift in Sources */,
+				01A65F981F73EEFE000040B2 /* CommentTableViewCell.swift in Sources */,
+				01A65F8B1F73D10E000040B2 /* ItemDetailViewController.swift in Sources */,
+				019182C01F71543300DC50C4 /* Extensions.swift in Sources */,
+				0162BD551F726E4500949D9C /* Item.swift in Sources */,
+				019182BB1F7153EE00DC50C4 /* ArticleListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +752,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				019182A31F712A6300DC50C4 /* HackerPiperUITests.swift in Sources */,
+				01A65F851F73CBA9000040B2 /* SlidingContainerSliderView.swift in Sources */,
+				019182C51F71558600DC50C4 /* PiperUtils.swift in Sources */,
+				01A65F941F73D225000040B2 /* ContainerViewController.swift in Sources */,
+				01A65F901F73D159000040B2 /* WebViewController.swift in Sources */,
+				01A65F881F73CBA9000040B2 /* SlidingContainerViewController.swift in Sources */,
+				0162BD511F71787000949D9C /* WebRequestManager.swift in Sources */,
+				01A65F991F73EEFE000040B2 /* CommentTableViewCell.swift in Sources */,
+				01A65F8C1F73D10E000040B2 /* ItemDetailViewController.swift in Sources */,
+				019182C11F71543300DC50C4 /* Extensions.swift in Sources */,
+				0162BD561F726E4500949D9C /* Item.swift in Sources */,
+				019182BC1F7153EE00DC50C4 /* ArticleListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,32 +894,45 @@
 		};
 		019182A81F712A6300DC50C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C98E7FD13170C991785CB7D /* Pods-HackerPiper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z8863244VZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HackerPiper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.urbanpiper.HackerPiper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HackerPiper/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		019182A91F712A6300DC50C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61036D30D3A16BC81706FA9B /* Pods-HackerPiper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z8863244VZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HackerPiper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.urbanpiper.HackerPiper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HackerPiper/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		019182AB1F712A6300DC50C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5454E0BA65F23448EAFF910B /* Pods-HackerPiperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +948,7 @@
 		};
 		019182AC1F712A6300DC50C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059BB7359BF46E27124617E6 /* Pods-HackerPiperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +964,7 @@
 		};
 		019182AE1F712A6300DC50C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9660B5811D51F2F0B217F4A6 /* Pods-HackerPiperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Z8863244VZ;
@@ -481,6 +979,7 @@
 		};
 		019182AF1F712A6300DC50C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F64D653168B4C2A30DD1055 /* Pods-HackerPiperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Z8863244VZ;
@@ -512,6 +1011,7 @@
 				019182A91F712A6300DC50C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		019182AA1F712A6300DC50C4 /* Build configuration list for PBXNativeTarget "HackerPiperTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +1020,7 @@
 				019182AC1F712A6300DC50C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		019182AD1F712A6300DC50C4 /* Build configuration list for PBXNativeTarget "HackerPiperUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +1029,7 @@
 				019182AF1F712A6300DC50C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import GoogleSignIn
+import Alamofire
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +19,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        startNetworkReachabilityObserver()
+        // Use Firebase library to configure APIs
+        FirebaseApp.configure()
+        GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
+        setupInitialView()
         return true
+    }
+    
+    func setupInitialView(){
+        
+        if let _ = Auth.auth().currentUser{
+            //logged in user present bypass login controller
+            window?.rootViewController = UINavigationController(rootViewController: UIStoryboard.articleListViewController())
+        }else{
+            //take user to login controller
+            window?.rootViewController = UIStoryboard.loginViewController()
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -41,6 +61,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        return GIDSignIn.sharedInstance().handle(url, sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String, annotation: options[UIApplicationOpenURLOptionsKey.annotation])
+    }
+    
+    func startNetworkReachabilityObserver() {
+        reachabilityManager = Alamofire.NetworkReachabilityManager(host: "www.google.com")
+        reachabilityManager?.listener = { status in
+            
+            switch status {
+            case .notReachable:
+                print("The network is not reachable")
+                isNetworkAvilable = false
+            case .unknown :
+                print("It is unknown whether the network is reachable")
+                isNetworkAvilable = false
+            case .reachable(.ethernetOrWiFi):
+                print("The network is reachable over the WiFi connection")
+                isNetworkAvilable = true
+            case .reachable(.wwan):
+                print("The network is reachable over the WWAN connection")
+                isNetworkAvilable = true
+            }
+            
+            if !isNetworkAvilable {
+                PiperUtils.showAlertOnController(title: appTitle, withMessage: kNoNetworkError)
+            }
+        }
+        
+        // start listening
+        reachabilityManager?.startListening()
+    }
 
 }
+
+
+
+
+
+
 
